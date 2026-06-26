@@ -1,0 +1,138 @@
+
+> tutorxpert-backend@1.0.0 dev
+> nodemon src/index.js
+
+[33m[nodemon] 3.1.14[39m
+[33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/index.js`[39m
+✅ MongoDB connected
+✅ PostgreSQL connected
+✅ MongoDB connected: 127.0.0.1
+✅ Redis connected
+✅ Socket.IO initialized
+🚀 TutorXpert Backend running on port 5000
+📡 Environment: development
+[0mGET /health [32m200[0m 3.134 ms - 54[0m
+Executed query {
+  text: 'SELECT * FROM subjects WHERE is_active = true\n' +
+    '       ORDER BY name ASC\n' +
+    '       LIMIT $1 OFFSET $2',
+  duration: 41,
+  rows: 0
+}
+[0mGET /api/subjects [32m200[0m 41.200 ms - 39[0m
+Executed query {
+  text: 'SELECT * FROM subjects WHERE is_active = true\n' +
+    '       ORDER BY name ASC\n' +
+    '       LIMIT $1 OFFSET $2',
+  duration: 39,
+  rows: 0
+}
+[0mGET /api/subjects [32m200[0m 39.350 ms - 39[0m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+✅ MongoDB connected
+✅ PostgreSQL connected
+✅ MongoDB connected: 127.0.0.1
+✅ Redis connected
+✅ Socket.IO initialized
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (file:///c:/Users/talha/Downloads/Digital%20Platform%20for%20Peer-to-Peer%20Tutoring/tutorxpert/backend/src/index.js:89:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v24.13.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+✅ MongoDB connected
+✅ PostgreSQL connected
+✅ MongoDB connected: 127.0.0.1
+✅ Redis connected
+✅ Socket.IO initialized
+🚀 TutorXpert Backend running on port 5000
+📡 Environment: development
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+✅ MongoDB connected
+✅ PostgreSQL connected
+✅ MongoDB connected: 127.0.0.1
+✅ Redis connected
+✅ Socket.IO initialized
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (file:///c:/Users/talha/Downloads/Digital%20Platform%20for%20Peer-to-Peer%20Tutoring/tutorxpert/backend/src/index.js:89:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v24.13.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+✅ MongoDB connected
+✅ PostgreSQL connected
+✅ MongoDB connected: 127.0.0.1
+✅ Redis connected
+✅ Socket.IO initialized
+🚀 TutorXpert Backend running on port 5000
+📡 Environment: development
+[32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/index.js`[39m
+✅ MongoDB connected
+✅ PostgreSQL connected
+✅ MongoDB connected: 127.0.0.1
+✅ Redis connected
+✅ Socket.IO initialized
+node:events:486
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::5000
+    at Server.setupListenHandle [as _listen2] (node:net:1940:16)
+    at listenInCluster (node:net:1997:12)
+    at Server.listen (node:net:2102:7)
+    at startServer (file:///c:/Users/talha/Downloads/Digital%20Platform%20for%20Peer-to-Peer%20Tutoring/tutorxpert/backend/src/index.js:89:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1976:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '::',
+  port: 5000
+}
+
+Node.js v24.13.0
+[31m[nodemon] app crashed - waiting for file changes before starting...[39m
